@@ -1,0 +1,48 @@
+Bash Terminal
+1) python -m venv namevenv
+source c:/Users/AVplusTV/Documents/GitHub/yatube_project/venv/Scripts/activate    OR    deactivate 
+C:\Users\AVplusTV\Documents\GitHub\yatube_project\yatube
+2) pip install --upgrade pip или python -m pip install -U pip
+3) pip install pytest
+4) pytest --version 
+5) pip install flake8 pep8-naming flake8-broken-line flake8-return flake8-isort flake8-docstrings mypy
+6) flake8 --version
+7) 
+Git Bash
+врубаем его на нужной деректории (склоненная репозитория)
+touch name.file - создаем файл в локальной репозитории
+ls -la - проверка появился ли файл
+при помощи редактора вносим в файл данные
+git status - проверка коммита файлов в текущей деректории
+git add name.file - добавляем файл в индексацию
+git commit -m "testirovanie git commit - коментарий" - коммитим файл в локальном репозитории (одобряем)
+git push - загружаем на удаленный репозиторий GIT 
+git log -2 или git log - смотрим частично или все коммиты
+https://github.com/cyberspacedk/Git-commands
+
+pip freeze > requirements.txt - заносим в файл все установленные приложения в окружении (активировать окружение и выбрать корневую папку проекта).
+pip install -r requirements.txt (выбрать корневую папку проекта, окружение и установить все что нужно для проекта если требуется)
+
+pip install Django==2.2.19
+python -m django --version or python -m django --version
+
+Зайдите в настройки VSC: File (или Code на macOS) > Preferences > Settings.
+режим настроек текущего проекта, на закладку Workspace
+python.pythonPath
+./venv/Scripts/python.exe пример
+конкретно для проекта: c:/Users/AVplusTV/Documents/GitHub/yatube_project/yatube/Scripts/python.exe
+Python: Select Interpreter
+
+python manage.py runserver (выбрать папку с расположенным в ней manage.py)
+
+python -m django startapp name_app - сощдаем приложение
+
+создаем приложене с классом базы данных
+
+python manage.py makemigrations  - команда создания скрипта миграций
+
+python manage.py migrate  - нужно запустить все миграции
+
+python manage.py createsuperuser - оздание суперпользователя
+
+python manage.py collectstatic - 
